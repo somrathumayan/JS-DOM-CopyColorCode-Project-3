@@ -19,7 +19,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-button{
+#change-btn{
     padding: 1rem 3rem;
     margin: 1rem 0;
     outline: none;
@@ -33,10 +33,13 @@ button{
     border: 1px solid #fff;
 }
 
-button:hover{
+#change-btn:hover{
     background-color: #fff;
     color: #000;
     border: 1px solid #000;
+}
+#copy-btn{
+    padding: 5px;
 }
 h1{
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
